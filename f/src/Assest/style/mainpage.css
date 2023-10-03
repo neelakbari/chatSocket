@@ -1,0 +1,52 @@
+.Main{
+    width: 100%;
+    display: flex;
+}
+.list{
+    height: auto;
+  
+    background: antiquewhite;
+   width: 235px;
+}
+.name{
+    padding: 20px;
+    border: 0.5px solid;
+    cursor: pointer;
+}
+.msg{
+    position: relative;
+    width: 100%;
+    background-color: #00800030;
+    max-height: 875px;
+    overflow-y: auto;
+}
+.msgName{
+    background-color: #00800052;
+}
+.sendmsg{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    bottom: 19px;
+    left: 196px;
+}
+input{
+    width: 100%;
+    margin: 21px;
+    padding: 9px;
+    border-radius: 8px;
+}
+.btn{
+    width: 17%;
+    margin: 21px;
+    padding: 9px;
+    border-radius: 8px;
+}
+.sender{
+    text-align: start;
+    font-size: 30px;
+}
+.receiver{
+    text-align: end;
+    font-size: 30px;
+}
